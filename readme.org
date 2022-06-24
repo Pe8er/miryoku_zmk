@@ -1,6 +1,10 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
+* Notes on this fork
+- adds left/right hand specific macros for home row mods
+- configures them for my corne using cross-hand positional hold-taps https://zmk.dev/docs/behaviors/hold-tap#home-row-mods
+
 * Miryoku ZMK [[https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/logos/miryoku-roa-32.png]]
 
 [[https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/cover/miryoku-kle-cover-miryoku_zmk.png]]
