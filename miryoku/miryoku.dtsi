@@ -58,6 +58,15 @@ MIRYOKU_LAYER_LIST
 #endif
     };
   };
+
+  combos {
+    compatible = "zmk,combos";
+    combo_esc {
+        timeout-ms = <50>;
+        key-positions = < _CORNE_EXTRA_RIGHT >;
+        bindings = <&kp LC(LA(DEL))>;
+    };
+  };
 };
 
 #include "miryoku_shift_functions.dtsi"
