@@ -6,7 +6,7 @@
 # CONFIG_ZMK_DISPLAY=y
 # CONFIG_ZMK_DISPLAY_WORK_QUEUE_DEDICATED=y
 
-CONFIG_ZMK_KEYBOARD_NAME="Piotr's Corne"
+CONFIG_ZMK_KEYBOARD_NAME="Piotr's\ Corne"
 
 # increase bluetooth signal power
 CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
@@ -18,7 +18,7 @@ CONFIG_ZMK_SLEEP=y
 # uses very little power, but it may take
 # a few seconds to reconnect after waking.
 # 1.800.000 ms = 30 minutes
-CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=1800000
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000
 
 # "Eager Debouncing"
 # Trying to lower the input lag.
