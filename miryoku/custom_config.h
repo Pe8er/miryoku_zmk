@@ -1,1 +1,1 @@
-
+#define MIRYOKU_ALPHAS_QWERTY
