@@ -1,5 +1,5 @@
 name: 'Piotr's Corne'
-on: workflow_dispatch
+on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: ./.github/workflows/main.yml
